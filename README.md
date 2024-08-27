@@ -1,4 +1,4 @@
-# ChartScanAI
+# Stock-Decision
 
 ## Overview
 ChartScanAI is an advanced application designed for detecting patterns in stock and cryptocurrency charts using deep learning techniques. Inspired by the methodology detailed in the research article "[YOLO Object Recognition Algorithm and “Buy-Sell Decision” Model Over 2D Candlestick Charts](https://ieeexplore.ieee.org/document/9092995)" by Serdar Birogul, Günay Temür, and Utku Kose, this project extends their approach by implementing the model with YOLOv8 and integrating it into a user-friendly Streamlit app. This application aims to automate the process of chart pattern recognition, providing traders and analysts with a powerful tool for making informed decisions.
@@ -21,8 +21,8 @@ The dataset for this project was meticulously curated from various financial sou
 
 Using `Roboflow`, various chart patterns were labeled, enabling the YOLOv8 model to learn and detect these patterns with high accuracy. The annotated dataset serves as the foundation for training the model, making it capable of recognizing complex patterns in financial charts.
 
-## ChartScanAI App
-The ChartScanAI app, built with Streamlit, offers a seamless interface for users to upload charts, analyze them, and view the detected patterns. Key features include:
+## Stock-Decision App
+The Stock-decision app, built with Streamlit, offers a seamless interface for users to upload charts, analyze them, and view the detected patterns. Key features include:
 - **User-Friendly Interface**: Intuitive design for easy navigation and use.
 - **Real-Time Analysis**: Upload a chart and get instant results.
 - **High Accuracy**: Powered by the YOLOv8 model, ensuring reliable pattern detection.
@@ -56,4 +56,4 @@ ChartScanAI represents a significant advancement in the automated analysis of fi
 Acknowledgments go to the authors of the original research article for their groundbreaking work, which served as the inspiration for this project. Additionally, thanks to the creators of the `yfinance`, `mplfinance`, and `Roboflow` tools for their invaluable resources. 
 
 ## Disclaimer
-**Important:** ChartScanAI is intended to be used as an informational tool only. Users are advised to use this tool in conjunction with their own research and professional financial advice.
+**Important:** Stock-Decision is intended to be used as an informational tool only. Users are advised to use this tool in conjunction with their own research and professional financial advice.
